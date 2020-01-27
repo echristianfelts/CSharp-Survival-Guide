@@ -16,6 +16,8 @@ public class Switch_Player : MonoBehaviour
     void Update()
     {
 
+
+
         if(Input.GetKeyDown(KeyCode.Q))
         {
             points = 50;
@@ -31,21 +33,38 @@ public class Switch_Player : MonoBehaviour
         }
 
 
+        switch (points)
+        {
+            case 50: //easy
+                Debug.Log("Points are 50!");
+                break;
+            case 100: //medium
+                Debug.Log("Points are 100!");
+                break;
+            //case 2: //hard
+            //    Debug.Log("Easy..!");
+            //    break;
+            default:
+                Debug.Log("Only socres of 50 or 100 get readouts..!");
+                break;
+
+        }
+
         //based on the value of points...
         // we print out.
 
-        if (points == 50)
-        {
-            Debug.Log("Points are 50!");
-        }
-        else if (points == 100)
-        {
-            Debug.Log("Points are 100!");
-        }
-        else
-            {
-            Debug.Log("Only socres of 50 or 100 get readouts..!");
-            }
+        //if (points == 50)
+        //{
+        //    Debug.Log("Points are 50!");
+        //}
+        //else if (points == 100)
+        //{
+        //    Debug.Log("Points are 100!");
+        //}
+        //else
+        //    {
+        //    Debug.Log("Only socres of 50 or 100 get readouts..!");
+        //    }
 
 
     }
