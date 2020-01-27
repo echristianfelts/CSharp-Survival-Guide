@@ -35,15 +35,13 @@ public class Switch_Player : MonoBehaviour
 
         switch (points)
         {
-            case 50: //easy
+            case 50: 
                 Debug.Log("Points are 50!");
                 break;
-            case 100: //medium
+            case 100: 
                 Debug.Log("Points are 100!");
                 break;
-            //case 2: //hard
-            //    Debug.Log("Easy..!");
-            //    break;
+
             default:
                 Debug.Log("Only socres of 50 or 100 get readouts..!");
                 break;
