@@ -23,7 +23,13 @@ public class Loops_ForLoop_01 : MonoBehaviour
             if (i % 2 == 0)
             {
                 Debug.Log(i);
+
+                if (i==50)
+                {
+                    break;
+                }
             }
+
 
         }
 
