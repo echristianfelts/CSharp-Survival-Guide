@@ -14,6 +14,7 @@ public class Array_Master : MonoBehaviour
     public int[] kidAges = new int[5] { 12, 13, 12, 11, 12 };
     public string[] kidCars = new string[5] { "Porche", "Bolt", "Honda", "Trans Am", "Peterbilt" };
 
+    private int _Rando;
 
     // Start is called before the first frame update
     void Start()
@@ -26,9 +27,10 @@ public class Array_Master : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        _Rando = Random.Range(0, 5);
         if (Input.GetKeyDown(KeyCode.Space))
             {
-            Debug.Log(kidNames[4] +" is "+kidAges[4]+" years old and the kid's favorite car is the "+ kidCars[4]+".");
+            Debug.Log(kidNames[_Rando] +" is "+kidAges[_Rando] +" years old and the kid's favorite car is the "+ kidCars[_Rando] +".");
         }
     }
 }
