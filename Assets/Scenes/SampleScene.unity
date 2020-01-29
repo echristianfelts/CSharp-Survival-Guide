@@ -223,6 +223,8 @@ GameObject:
   m_Component:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
+  - component: {fileID: 963194243}
+  - component: {fileID: 963194242}
   - component: {fileID: 963194241}
   - component: {fileID: 963194240}
   - component: {fileID: 963194238}
@@ -496,7 +498,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff66fd3307c5bde488f8e9645240b8ab, type: 3}
   m_Name: 
@@ -514,6 +516,43 @@ MonoBehaviour:
   - Honda
   - Trans Am
   - Peterbilt
+--- !u!114 &963194242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c6556528795df409d4063967f5aa13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemID: 0100000002000000030000000400000005000000060000000700000008000000090000000a000000
+  itemName:
+  - bread
+  - gold
+  - sword
+  - dagger
+  - poison spear
+  - cape
+  - cow hide
+  - raw hide
+  - flax
+  - chissel
+--- !u!114 &963194243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f09739004689649b0576ed2b6577d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ageArray: 0e000000170000000b0000002b0000002d00000027000000280000002a0000002b00000016000000
 --- !u!1 &1324041018
 GameObject:
   m_ObjectHideFlags: 0
