@@ -26,12 +26,12 @@ public class FvM_PassColortoObject : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            PassColor();
+            PassColor(_gameObject, _color);
         }
     }
 
-    private void PassColor()
+    private void PassColor(GameObject obj, Color col)
     {
-        _gameObject.GetComponent<Renderer>().material.color = _color;
+        obj.GetComponent<Renderer>().material.color = col;
     }
 }
