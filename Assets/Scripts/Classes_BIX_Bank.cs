@@ -5,22 +5,22 @@ using UnityEngine;
 [System.Serializable]
 public class Classes_BIX_Bank
 { 
-    public string branchName;
-    public string location;
-    public int moneyIntheVault;
+    protected string branchName;
+    protected string location;
+    protected int moneyIntheVault;
 
-    public void ChceckBalance()
+    protected void ChceckBalance()
     {
         Debug.Log("Checking Ballance: " + branchName);
 
     }
 
-    public void Withdrawl()
+    protected void Withdrawl()
     {
         Debug.Log("Withdrawing Money from: " + branchName);
     }
 
-    public void Deposit()
+    protected void Deposit()
     {
         Debug.Log("Depositing money to: " + branchName);
     }
