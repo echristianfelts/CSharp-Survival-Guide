@@ -32,15 +32,15 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   gradingMode:
-    overrideState: 0
+    overrideState: 1
     value: 1
   externalLut:
     overrideState: 0
     value: {fileID: 0}
     defaultState: 1
   tonemapper:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 2
   toneCurveToeStrength:
     overrideState: 0
     value: 0
@@ -67,8 +67,8 @@ MonoBehaviour:
     overrideState: 0
     value: 1
   temperature:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 41
   tint:
     overrideState: 0
     value: 0
@@ -119,13 +119,13 @@ MonoBehaviour:
     value: 100
   lift:
     overrideState: 0
-    value: {x: 1, y: 1, z: 1, w: 0}
+    value: {x: 1, y: 0.8680489, z: 0.9454993, w: 0}
   gamma:
     overrideState: 0
-    value: {x: 1, y: 1, z: 1, w: 0}
+    value: {x: 0.97747505, y: 0.8433847, z: 1, w: 0}
   gain:
     overrideState: 0
-    value: {x: 1, y: 1, z: 1, w: 0}
+    value: {x: 0.94017774, y: 1, z: 0.9680894, w: 0}
   masterCurve:
     overrideState: 0
     value:
@@ -1344,7 +1344,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 18.2
+    value: 21.42
   threshold:
     overrideState: 1
     value: 1
@@ -1359,7 +1359,7 @@ MonoBehaviour:
     value: 6.7
   anamorphicRatio:
     overrideState: 1
-    value: -1
+    value: 0.18
   color:
     overrideState: 1
     value: {r: 0.4627451, g: 0.9529412, b: 0.6040084, a: 1}
