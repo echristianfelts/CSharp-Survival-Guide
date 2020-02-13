@@ -8,20 +8,14 @@ public class QuickTip_DestructableCrate : MonoBehaviour
     public GameObject explosionEffect;
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(fracturedCrate, transform.position, Quaternion.identity);
-            GameObject FracturedObj = Instantiate(explosionEffect, transform.position, Quaternion.identity);
-            Rigidbody[] allRigidBodies = fracturedCrate.GetComponentsInChildren<Rigidbody>();
+            Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            GameObject FracturedObj = Instantiate(fracturedCrate, transform.position, Quaternion.identity) as GameObject;
+            Rigidbody[] allRigidBodies = FracturedObj.GetComponentsInChildren<Rigidbody>();
 
             //Debug.Log(allRigidBodies[1].name);
             if (allRigidBodies.Length > 0)
@@ -32,7 +26,7 @@ public class QuickTip_DestructableCrate : MonoBehaviour
                     Debug.Log(body.name);
                     Debug.Log(body.transform.position);
                     Debug.Log(transform.position);
-                    body.AddExplosionForce(5000, transform.position, 10);
+                    body.AddExplosionForce(1200, transform.position, 2);
 
                 }
             }
