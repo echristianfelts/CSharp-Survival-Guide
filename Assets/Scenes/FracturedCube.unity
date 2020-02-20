@@ -534,6 +534,8 @@ GameObject:
   - component: {fileID: 1095062168}
   - component: {fileID: 1095062171}
   - component: {fileID: 1095062172}
+  - component: {fileID: 1095062173}
+  - component: {fileID: 1095062174}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -625,11 +627,48 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095062167}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23a065be7c1e4354dac4ff1384fec9cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1095062173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095062167}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f2f9ff448841546b28adac60d442aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemiesToSpawn: []
+  objectsToSpawn:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &1095062174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095062167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fac4d4f4596d3114bba9045f20de1254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomNames: []
 --- !u!1 &1216923184
 GameObject:
   m_ObjectHideFlags: 0
