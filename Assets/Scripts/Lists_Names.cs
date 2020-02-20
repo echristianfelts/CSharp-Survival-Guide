@@ -13,17 +13,22 @@ public class Lists_Names : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        randomNames.Add("John");
-        randomNames.Add("Bill");
-        randomNames.Add("Sarah");
-        randomNames.Add("Wilber");
-        randomNames.Add("Noodles");
+        randomNames.Add("Clark");
+        randomNames.Add("Norris");
+        randomNames.Add("Copper");
+        randomNames.Add("Blair");
+        randomNames.Add("Bennings");
 
-        for (int i = 0; i < randomNames.Count; i++)  //'i' is like an index variable.
-        {
-            Debug.Log(randomNames[i]);
-        }
+        //for (int i = 0; i < randomNames.Count; i++)  //'i' is like an index variable.
+        //{
+        //    Debug.Log(randomNames[i]);
+        //}
 
+          //or
+          foreach(var name in randomNames)
+              {
+                  Debug.Log(name);
+              }
     }
 
     // Update is called once per frame
