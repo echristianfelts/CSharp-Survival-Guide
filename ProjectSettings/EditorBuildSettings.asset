@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Enum_Scenes/Enum_Root.unity
+    guid: 38aa49f8723a7a4458ec21be436354d3
+  - enabled: 1
+    path: Assets/Scenes/Enum_Scenes/Enum_Easy.unity
+    guid: 3a1506b9dfaed3d498bb28bec763cb6c
+  - enabled: 1
+    path: Assets/Scenes/Enum_Scenes/Enum_Normal.unity
+    guid: dca4c0eb77020c14a9afd0e09d0ff0e8
+  - enabled: 1
+    path: Assets/Scenes/Enum_Scenes/Enum_Hard.unity
+    guid: 86bf019a6874c2f4da7fa36992d1247f
+  - enabled: 1
+    path: Assets/Scenes/Enum_Scenes/Enum_Expert.unity
+    guid: c57a1812d9c92bf41ad7c11f1f354287
   m_configObjects: {}
